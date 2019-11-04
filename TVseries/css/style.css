@@ -1,0 +1,68 @@
+body {
+  background-color: rgb(33, 34, 34);
+  height: 100%;
+}
+
+#container {
+  border-radius: 15px;
+  text-align: center;
+  background-color: rgb(54, 54, 54);
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.form-group {
+  margin-bottom: 2%;
+}
+input {
+  width: 70%;
+  font-size: 150%;
+}
+button {
+  border: solid rgb(57, 57, 247);
+  font-size: 150%;
+  outline: none;
+  background-color: rgb(57, 57, 247);
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  padding: 2px 20px;
+  min-height: 40px;
+  border-radius: 5px;
+}
+#searched-movie {
+  margin-top: 25px;
+}
+section#movie-list {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+section#movie-list img {
+  width: 300px;
+  transition: 300ms all;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+/*img:hover{
+    
+    cursor: pointer;
+    transform: scale(1.2);
+    
+}*/
+
+.info {
+  width: 300px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+}
+
+.movie{
+  background-color: rgb(143, 146, 148);
+  border-radius: 10px;
+  margin-bottom: 15px;
+  margin-right: 20px;
+}
